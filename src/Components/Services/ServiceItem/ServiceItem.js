@@ -5,7 +5,6 @@ class ServiceItem extends Component {
   render() {
     return (
       <div>
-          ServiceItem
       </div>
     );
   }
