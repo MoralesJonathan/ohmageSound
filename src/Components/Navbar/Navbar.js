@@ -8,11 +8,11 @@ class Navbar extends Component {
       <div>
         <nav>
           <div className="navContainer">
-            <a href="#" className="navlogo">Logo</a>
+            <img className="navlogo" src="http://via.placeholder.com/100x100" />
             <ul className="navMenu">
-              <NavMenuItem />
-              <NavMenuItem />
-              <NavMenuItem />
+              <NavMenuItem title="Home" link="/"/>
+              <NavMenuItem title="About Us" link="#"/>
+              <NavMenuItem title="Contact Us" link="#"/>
             </ul>
           </div>
         </nav>

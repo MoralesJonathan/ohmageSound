@@ -1,0 +1,21 @@
+li.navMenuItem {
+    display: list-item;
+    float: left;
+    padding: 0 10px;
+}
+
+li.navMenuItem a {
+    padding: 0 5px;
+    color: #5D6072;
+    line-height: 57px;
+    display: block;
+    text-decoration: none;
+}
+
+li.navMenuItem + li.navMenuItem:before{
+    content: " | ";
+    color: #5D6072;
+    float: left;
+    line-height: 57px;
+    margin-left: -10px;
+}

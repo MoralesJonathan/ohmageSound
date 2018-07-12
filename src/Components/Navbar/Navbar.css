@@ -1,0 +1,26 @@
+.navContainer {
+    padding: 5px 25px;
+    position: relative;
+    overflow: auto;
+}
+
+
+.navContainer img {
+    height: 50px!important;
+    width: 50px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.navContainer .navMenu {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white;
+}
