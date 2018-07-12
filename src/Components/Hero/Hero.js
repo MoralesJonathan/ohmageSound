@@ -4,7 +4,7 @@ import './Hero.css';
 class Header extends Component {
   render() {
     return (
-      <div className="hero">
+        <div className="hero">
       <div className="container">
         <h1><strong>OHAMGE SOUND LLC</strong></h1>
         <h2>Catchy tagline goes here.</h2>
