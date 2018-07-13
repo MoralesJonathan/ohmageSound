@@ -4,8 +4,7 @@ import './SectionTitle.css';
 class SectionTitle extends Component {
   render() {
     return (
-      <div>
-      </div>
+      <h3 className="sectionTitle">{this.props.title}</h3>
     );
   }
 }

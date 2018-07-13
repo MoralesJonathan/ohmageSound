@@ -4,7 +4,10 @@ import './Section.css';
 class Section extends Component {
   render() {
     return (
-      <div className="container">
+      <div className={"section "+(this.props.type === 'dark'?'dark':'light' )}>
+        <div className="container">
+          {this.props.children}
+        </div>
       </div>
     );
   }

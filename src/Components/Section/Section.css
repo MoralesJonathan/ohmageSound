@@ -1,0 +1,11 @@
+.section {
+    padding: 12rem 0;
+}
+
+.section.dark {
+    background-color:#F6F7FB
+}
+
+.section.light {
+    background-color: white;
+}
