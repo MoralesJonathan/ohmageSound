@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <nav>
         <div className="navContainer">
-          <img className="navlogo" src="http://via.placeholder.com/100x100" />
+          <img className="navlogo" src="/images/Logo.png" />
           <input type="checkbox" id="navMobile" className="hidden"/>
           <label htmlFor="navMobile" className="navMobile-open"><i/><i/><i/></label>
           <div className="navMenuContainer">
