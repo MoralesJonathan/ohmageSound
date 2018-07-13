@@ -6,11 +6,15 @@ import SectionTitle from '../../Components/Section/SectionTitle/SectionTitle';
 class Services extends Component {
   render() {
     return (
-      <div className="container">
-        <SectionTitle/>
-        <ServiceItem />
-        <ServiceItem />
-        <ServiceItem />
+      <div className="services">
+        <SectionTitle title="What we offer"/>
+        <div class="row">
+          <div class="twelve columns cardContainer">
+            <ServiceItem icon="memory" title="Equipment Rental" paragraph="Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum dictum nisi erat, id tincidunt elit vulputate et."/>
+            <ServiceItem icon="memory" title="DJ Services" paragraph="Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum dictum nisi erat, id tincidunt elit vulputate et."/>
+            <ServiceItem icon="memory" title="Events" paragraph="Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum dictum nisi erat, id tincidunt elit vulputate et."/>
+          </div>
+        </div>
       </div>
     );
   }

@@ -1,0 +1,5 @@
+.cardContainer {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 35px 0;
+}
