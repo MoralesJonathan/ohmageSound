@@ -4,9 +4,8 @@
     overflow: auto;
 }
 
-
 .navContainer img {
-    height: 50px!important;
+    height: 50px !important;
     width: 50px;
     position: absolute;
     margin: auto;
@@ -26,4 +25,134 @@ nav {
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+@media screen and (max-width: 560px) {
+    nav {
+        background-color: transparent;
+    }
+
+    .navContainer {
+        padding: 35px 25px;
+    }
+
+    .navMenuContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background: #2f3cf9;
+        background: -moz-linear-gradient(45deg, #2f3cf9 0%, #c433d0 100%);
+        background: -webkit-linear-gradient(45deg, #2f3cf9 0%,#c433d0 100%);
+        background: linear-gradient(45deg, #2f3cf9 0%,#c433d0 100%);
+        opacity: 0;
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+}
+    .navMenuContainer ul {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+    .navMenuContainer ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .navMenuContainer ul li:hover {
+       background: white;
+    }
+    .navMenuContainer ul li:nth-child(1) a {
+        transition-delay: 0.2s;
+    }
+    .navMenuContainer ul li:nth-child(2) a {
+        transition-delay: 0.3s;
+    }
+    .navMenuContainer ul li:nth-child(3) a {
+        transition-delay: 0.4s;
+    }
+    .navMenuContainer ul li:nth-child(4) a {
+        transition-delay: 0.5s;
+    }
+    .navMenuContainer ul li:not(:first-child) {
+        margin-left: 0;
+    }
+    .navMenuContainer ul li a {
+        padding: 10px 25px;
+        opacity: 0;
+        color:white;
+        font-size: 24px;
+        font-weight: 600;
+        transform: translateY(-20px);
+        transition: all 0.2s ease;
+    }
+    .navMenuContainer ul li a:hover {
+        color: #5D6072;
+    }
+    .navMobile-open {
+        position: relative;
+        float: right;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        z-index: 9999;
+        border-radius: 50%;
+    }
+    .navMobile-open i {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: white;
+        border-radius: 2px;
+        margin-left: 14px;
+    }
+    .navMobile-open i:nth-child(1) {
+        margin-top: 16px;
+    }
+    .navMobile-open i:nth-child(2) {
+        margin-top: 4px;
+        opacity: 1;
+    }
+    .navMobile-open i:nth-child(3) {
+        margin-top: 4px;
+    }
+}
+
+#navMobile:checked+.navMobile-open {
+    transform: rotate(45deg);
+}
+
+#navMobile:checked+.navMobile-open i {
+    background: white;
+    transition: transform 0.2s ease;
+}
+
+#navMobile:checked+.navMobile-open i:nth-child(1) {
+    transform: translateY(6px) rotate(180deg);
+}
+
+#navMobile:checked+.navMobile-open i:nth-child(2) {
+    opacity: 0;
+}
+
+#navMobile:checked+.navMobile-open i:nth-child(3) {
+    transform: translateY(-6px) rotate(90deg);
+}
+
+#navMobile:checked~.navMenuContainer {
+    z-index: 9990;
+    opacity: 1;
+}
+
+#navMobile:checked~.navMenuContainer ul li a {
+    opacity: 1;
+    transform: translateY(0);
 }
