@@ -11,15 +11,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Hero />
-        <Navbar />
+        <Hero /> 
+        <Navbar /> 
         <Section id="services" type="dark">
             <Services />
         </Section>
         <Section id="contact" type="light">
             <Contact />
-        </Section>
-        <Footer/>
+        </Section> 
+        <Footer/> 
       </div>
     );
   }
