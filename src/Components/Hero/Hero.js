@@ -6,7 +6,7 @@ class Header extends Component {
     return (
         <div className="hero">
       <div className="container">
-        <h1><strong>OHAMGE SOUND LLC</strong></h1>
+        <h1><strong>OHMAGE SOUND LLC</strong></h1>
         <h2>Catchy tagline goes here.</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum
         nisi erat, id tincidunt elit vulputate et. Nam sed urna erat. Aenean turpis nunc,
