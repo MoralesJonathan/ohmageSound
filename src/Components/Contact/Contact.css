@@ -1,0 +1,17 @@
+#messageInput {
+    height: 120px;
+}
+
+#contactForm .button {
+    color: #5639ee;
+    background-color: transparent;
+    border-color: #d539cb;
+}
+
+#contactForm label {
+    color: #5639ee;
+}
+
+#contactForm input:focus,textarea:focus {
+    border: 1px solid #d539cb;
+}
