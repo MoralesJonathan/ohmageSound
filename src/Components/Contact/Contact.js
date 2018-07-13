@@ -13,11 +13,11 @@ class Contact extends Component {
               <label htmlFor="nameInput">Your Name</label>
               <input className="u-full-width" type="text" placeholder="John Smith" id="nameInput"/>
               <label htmlFor="emailInput">Your Email</label>
-              <input className="u-full-width" type="email" placeholder="Smith@mailbox.com" id="emailInput"/>
+              <input required className="u-full-width" type="email" placeholder="Smith@mailbox.com" id="emailInput"/>
             </div>
             <div className="six columns">
               <label htmlFor="messageInput">Message</label>
-              <textarea className="u-full-width" placeholder="Write your message here!" id="messageInput"/>
+              <textarea required className="u-full-width" placeholder="Write your message here!" id="messageInput"/>
             </div>
           </div>
           <input className="button-primary u-pull-right button" type="submit" value="Submit" />
