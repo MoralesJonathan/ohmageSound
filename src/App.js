@@ -13,10 +13,10 @@ class App extends Component {
       <div className="App">
         <Hero />
         <Navbar />
-        <Section type="dark">
+        <Section id="services" type="dark">
             <Services />
         </Section>
-        <Section type="light">
+        <Section id="contact" type="light">
             <Contact />
         </Section>
         <Footer/>

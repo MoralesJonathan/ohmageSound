@@ -13,7 +13,7 @@ class Header extends Component {
         placerat quis malesuada ut, cursus scelerisque enim. Quisque eget purus risus.
         Mauris faucibus pretium ante, vitae imperdiet ex blandit non. Sed convallis
         nulla a sem luctus, ac ultricies erat dapibus. </p>
-        <a className="button" href="#">CONTACT US</a>
+        <a className="button" href="#contact">CONTACT US</a>
       </div>
       </div>
     );
