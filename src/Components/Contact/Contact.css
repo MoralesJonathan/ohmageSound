@@ -15,3 +15,7 @@
 #contactForm input:focus,textarea:focus {
     border: 1px solid #d539cb;
 }
+
+.postSubmitMessage {
+    text-align: center;
+}
