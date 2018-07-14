@@ -17,7 +17,7 @@ class Contact extends Component {
   handleChange(event) {
     const name = event.target.name;
     const value = event.target.value;
-    console.log(name,value)
+    console.log(name,value);
     this.setState({
       [name]: value
     });
@@ -66,7 +66,7 @@ class Contact extends Component {
               <label htmlFor="nameInput">Your Name</label>
               <input className="u-full-width" type="text" placeholder="John Smith" id="nameInput" name="name" onChange={this.handleChange} value={this.state.name}/>
               <label htmlFor="emailInput">Your Email</label>
-              <input required className="u-full-width" type="email" placeholder="Smith@mailbox.com" name="emailInput" name="email" onChange={this.handleChange} value={this.state.email}/>
+              <input required className="u-full-width" type="email" placeholder="Smith@mailbox.com" id="emailInput" name="email" onChange={this.handleChange} value={this.state.email}/>
             </div>
             <div className="six columns">
               <label htmlFor="messageInput">Message</label>

@@ -1,5 +1,7 @@
-.cardContainer {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 35px 0;
+@media (min-width: 750px) {
+    .cardContainer {
+        display: table;
+        border-collapse: separate;
+        border-spacing: 35px 0;
+    }
 }

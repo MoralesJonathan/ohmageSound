@@ -10,7 +10,7 @@ class ServiceItem extends Component {
         </i>
         <h5>{this.props.title}</h5>
         <p>{this.props.paragraph}</p>
-        <span className="underLine"></span>
+        <span className="underLine" />
       </div>
     );
   }
