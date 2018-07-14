@@ -8,7 +8,7 @@ class NavMenuItem extends Component {
   render() {
     return (
       <li className="navMenuItem">
-        <a onClick={this.closeMobileMenu} href={this.props.link}>{this.props.title}</a>
+        <a onClick={this.closeMobileMenu} data-scroll href={this.props.link}>{this.props.title}</a>
       </li>
     );
   }
