@@ -8,11 +8,7 @@ class Header extends Component {
       <div className="container">
         <h1><strong>OHMAGE SOUND LLC</strong></h1>
         <h2>Event production done right.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum
-        nisi erat, id tincidunt elit vulputate et. Nam sed urna erat. Aenean turpis nunc,
-        placerat quis malesuada ut, cursus scelerisque enim. Quisque eget purus risus.
-        Mauris faucibus pretium ante, vitae imperdiet ex blandit non. Sed convallis
-        nulla a sem luctus, ac ultricies erat dapibus. </p>
+        <p>Ohmage Sound is a Miami-Based production company founded by Jonathan Morales and Israel Jimenez who have a combined 15+ years of experience in the DJ industry. Ohmage sound was founded this year with limited assets and inventory but we hope to grow as a company to produce the largest events in South Florida. That's why we need you, our early customers, to help us move in the right direction. Every event we put on is another opportunity to grow and scale our business. So come, talk to us and we'll try our best to provde the best event production services possible.</p>
         <a className="button" href="#contact">CONTACT US</a>
       </div>
       </div>
