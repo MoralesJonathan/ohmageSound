@@ -7,7 +7,7 @@ class Header extends Component {
         <div className="hero">
       <div className="container">
         <h1><strong>OHMAGE SOUND LLC</strong></h1>
-        <h2>Catchy tagline goes here.</h2>
+        <h2>Event production done right.</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum
         nisi erat, id tincidunt elit vulputate et. Nam sed urna erat. Aenean turpis nunc,
         placerat quis malesuada ut, cursus scelerisque enim. Quisque eget purus risus.
