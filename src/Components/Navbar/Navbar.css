@@ -6,7 +6,6 @@
 
 .navContainer img {
     height: 50px !important;
-    width: 50px;
     position: absolute;
     margin: auto;
     top: 0;
@@ -43,10 +42,10 @@ nav {
         height: 100%;
         width: 100%;
         z-index: -1;
-        background: #2f3cf9;
-        background: -moz-linear-gradient(45deg, #2f3cf9 0%, #c433d0 100%);
-        background: -webkit-linear-gradient(45deg, #2f3cf9 0%,#c433d0 100%);
-        background: linear-gradient(45deg, #2f3cf9 0%,#c433d0 100%);
+        background: #7e33cc;
+        background: -moz-linear-gradient(190deg, #10A29F 0%,#7e33cc 90%);
+        background: -webkit-linear-gradient(190deg, #10A29F 0%,#7e33cc 90%);
+        background: linear-gradient(190deg, #10A29F 0%,#7e33cc 90%);
         opacity: 0;
         transition: all 0.2s ease;
         -webkit-transition: all 0.2s ease;
@@ -156,3 +155,4 @@ nav {
     opacity: 1;
     transform: translateY(0);
 }
+

@@ -3,17 +3,17 @@
 }
 
 #contactForm .button {
-    color: #5639ee;
+    color: #7e33cc;
     background-color: transparent;
-    border-color: #d539cb;
+    border-color: #10A29F;
 }
 
 #contactForm label {
-    color: #5639ee;
+    color: #7e33cc;
 }
 
 #contactForm input:focus,textarea:focus {
-    border: 1px solid #d539cb;
+    border: 1px solid #10A29F;
 }
 
 .postSubmitMessage {

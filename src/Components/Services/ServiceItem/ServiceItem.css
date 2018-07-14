@@ -16,12 +16,12 @@
 
 .card i {
     font-size: 6rem;
-    color: #D539CB;
+    color: #10A29F;
     margin-bottom: 20px
 }
 
 .card h5 {
-    color: #5639EE;
+    color: #7e33cc;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -35,7 +35,7 @@
 }
 
 .card .underLine {
-    border-bottom: 1px solid #D539CB;
+    border-bottom: 1px solid #10A29F;
     width: 25%;
     display: block;
     margin: auto;
