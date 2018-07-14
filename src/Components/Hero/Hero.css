@@ -7,7 +7,7 @@
     position: relative;
     text-align: center;
     width:100%;
-    height:100vh;
+    min-height:100vh;
     color: white;
     background: #7e33cc;
     background: -moz-linear-gradient(190deg, #10A29F 0%,#7e33cc 90%);
@@ -40,8 +40,31 @@
    color: white;
 }
 
-@media (min-width: 550px){
+@media (min-width: 560px){
     .hero .container h1 {
         font-size: 7rem;
+    }
+}
+
+
+@media (max-width: 560px){
+    .hero .container h1 {
+        font-size: 5rem;
+    }
+    .hero .container {
+        margin: auto;
+        position: relative;
+        padding-top: 98px;
+        padding-bottom: 25px;
+        top: 0;
+        left: unset;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+    }
+    .hero .container p{
+        margin: 25px 0;
     }
 }

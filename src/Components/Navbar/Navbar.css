@@ -30,12 +30,12 @@ nav {
 }
 
 @media screen and (max-width: 560px) {
-    nav {
-        background-color: transparent;
+    .navContainer{
+        padding: 5px 0;
     }
 
-    .navContainer {
-        padding: 35px 25px;
+    .navContainer img {
+        left: 15px;
     }
 
     .navMenuContainer {
@@ -112,7 +112,7 @@ nav {
         display: block;
         width: 20px;
         height: 2px;
-        background: white;
+        background: #3D3E44;
         border-radius: 2px;
         margin-left: 14px;
     }
