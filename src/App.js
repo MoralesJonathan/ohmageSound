@@ -17,6 +17,7 @@ var client = new KeenTracking({
 
 client.recordEvent('pageviews', {
   "ip_address" : "${keen.ip}",
+  "user_agent" : "${keen.user_agent}",
   "keen" : {
     "addons" : [
       {
@@ -25,12 +26,7 @@ client.recordEvent('pageviews', {
           "ip" : "ip_address"
         },
         "output" : "ip_geo_info"
-      }
-    ]
-  },
-  "user_agent" : "${keen.user_agent}",
-  "keen" : {
-    "addons" : [
+      },
       {
         "name" : "keen:ua_parser",
         "input" : {
