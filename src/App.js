@@ -6,7 +6,7 @@ import Section from './Components/Section/Section';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
-import KeenTracking from ('keen-tracking');
+import KeenTracking from 'keen-tracking';
 
 
 var client = new KeenTracking({
