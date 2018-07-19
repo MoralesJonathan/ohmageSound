@@ -19,3 +19,46 @@
 .postSubmitMessage {
     text-align: center;
 }
+
+#contactSidebar h6 {
+    color: #7e33cc;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+#contactSidebar {
+    text-align: right;
+}
+
+#contactSidebar p {
+    margin-top: 0;
+}
+
+#contactSidebar .socialMediaIconsWrapper img {
+    margin: 0 10px 5px 10px;
+    max-width: 30px;
+    display: inline-block;
+}
+
+#contactSidebar .socialMediaIconsWrapper img:last-child {
+    margin-right: 0;
+}
+
+#contactSidebar a {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+#contactSidebar a:focus {
+    color: #10A29F;
+}
+
+@media (max-width: 606px) {
+    #contactSidebar {
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    #contact {
+        padding-bottom: 5rem;
+    }
+}

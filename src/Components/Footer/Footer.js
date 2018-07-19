@@ -19,11 +19,6 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div className="socialMediaIconsWrapper">
-          <a onClick={this.handleClick} target="_blank" href="https://www.facebook.com/ohmagesound/"><img data-social-media-page="Faceook" src="socialMedia/facebook/2.svg" alt="Facebook" /></a>
-          <a onClick={this.handleClick} target="_blank" href="https://www.instagram.com/ohmagesound/"><img data-social-media-page="Instagram" src="socialMedia/instagram/1.png" alt="Instagram"/></a>
-          <a onClick={this.handleClick} target="_blank" href="https://www.youtube.com/channel/UCX_vmrVfLxt_apHK8k9A5dQ"><img data-social-media-page="Youtube" src="socialMedia/youtube/2.png" alt="Youtube"/></a>
-        </div>
         <span>&copy; 2018 Ohmage Sound LLC</span>
       </footer>
     );
